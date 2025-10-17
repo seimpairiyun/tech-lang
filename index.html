@@ -4,7 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sejarah Bahasa Pemrograman</title>
+    <meta name="description" content="Perkembangan bahasa pemrograman dari masa ke masa">
+    <meta property="og:image" content="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg">
+    <title>Programming Family</title>
+    <span itemprop="thumbnail" itemscope itemtype="http://schema.org/ImageObject">
+        <link itemprop="url" href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg">
+    </span>
+    <link itemprop="thumbnailUrl" href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg">
+    <link rel="icon" href="https://seimpairiyun.thedev.id/img/logo2.png">
     <link rel="stylesheet" href="./style.css">
 
 </head>
@@ -12,8 +19,14 @@
 <body>
     <button class="theme-toggle" onclick="toggleTheme()" id="themeToggle">🌙</button>
     <div class="container">
-        <h1>🚀 Sejarah Bahasa Pemrograman</h1>
-        <p class="subtitle">Perjalanan evolusi bahasa pemrograman dari masa ke masa</p>
+        <h1>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/debian/debian-original.svg" alt=""
+                class="lang-logo" onerror="this.style.display='none'">
+            Silsilah Bahasa Pemrograman
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/stackoverflow/stackoverflow-original.svg"
+                alt="" class="lang-logo" onerror="this.style.display='none'">
+        </h1>
+        <!-- <p class="subtitle">@seimpairiyun</p> -->
 
         <div class="table-wrapper">
             <table>
@@ -78,8 +91,8 @@
                     </tr>
                     <tr>
                         <td>
-                            <img src="https://img.icons8.com/?size=96&id=JIca3PdDDoXN&format=png"
-                                alt="Pascal" class="lang-logo" onerror="this.style.display='none'">
+                            <img src="https://img.icons8.com/?size=96&id=JIca3PdDDoXN&format=png" alt="Pascal"
+                                class="lang-logo" onerror="this.style.display='none'">
                             Pascal
                         </td>
                         <td>Niklaus Wirth <span class="year">(1970)</span></td>
@@ -105,6 +118,16 @@
                         <td>Alan Kay dkk <span class="year">(1972)</span></td>
                         <td><span class="built-with">Assembly</span></td>
                         <td>Pelopor OOP modern dan GUI</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prolog/prolog-original.svg"
+                                alt="Prolog" class="lang-logo" onerror="this.style.display='none'">
+                            Prolog
+                        </td>
+                        <td>Alain Colmerauer <span class="year">(1972)</span></td>
+                        <td><span class="built-with">Assembly</span></td>
+                        <td>Bahasa logika, penting di AI klasik</td>
                     </tr>
                     <tr>
                         <td>
@@ -148,6 +171,16 @@
                     </tr>
                     <tr>
                         <td>
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/erlang/erlang-original.svg"
+                                alt="Erlang" class="lang-logo">
+                            Erlang
+                        </td>
+                        <td>Ericsson <span class="year">(1986)</span></td>
+                        <td><span class="built-with">Prolog / C</span></td>
+                        <td>Bahasa untuk sistem concurrent & telekomunikasi</td>
+                    </tr>
+                    <tr>
+                        <td>
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/perl/perl-original.svg"
                                 alt="Perl" class="lang-logo">
                             Perl
@@ -158,12 +191,22 @@
                     </tr>
                     <tr>
                         <td>
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg"
+                                alt="Bash" class="lang-logo">
+                            Shell (Bash)
+                        </td>
+                        <td>Brian Fox <span class="year">(1989)</span></td>
+                        <td><span class="built-with">C</span></td>
+                        <td>Script Unix/Linux, penting di DevOps</td>
+                    </tr>
+                    <tr>
+                        <td>
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/haskell/haskell-original.svg"
                                 alt="Haskell" class="lang-logo">
                             Haskell
                         </td>
                         <td>Tim Komite FP <span class="year">(1990)</span></td>
-                        <td><span class="built-with">C (awalnya), Haskell (sekarang)</span></td>
+                        <td><span class="built-with">C / Haskell</span></td>
                         <td>Bahasa fungsional murni, penerus Miranda</td>
                     </tr>
                     <tr>
@@ -185,6 +228,16 @@
                         <td>Microsoft <span class="year">(1991)</span></td>
                         <td><span class="built-with">C/C++</span></td>
                         <td>Bahasa RAD berbasis GUI Windows</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/lua/lua-original.svg" alt="Lua"
+                                class="lang-logo">
+                            Lua
+                        </td>
+                        <td>Roberto Ierusalimschy dkk <span class="year">(1993)</span></td>
+                        <td><span class="built-with">C</span></td>
+                        <td>Scripting ringan, banyak dipakai di game (Cheat Engine termasuk XD)</td>
                     </tr>
                     <tr>
                         <td>
@@ -258,13 +311,13 @@
                     </tr>
                     <tr>
                         <td>
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original.svg"
-                                alt=".NET" class="lang-logo">
-                            .NET
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/4/40/VB.NET_Logo.svg" alt="VB.NET"
+                                class="lang-logo">
+                            Visual Basic .NET
                         </td>
                         <td>Microsoft <span class="year">(2002)</span></td>
                         <td><span class="built-with">C/C++</span></td>
-                        <td>Framework multi-bahasa berbasis CLR</td>
+                        <td>Versi modern VB klasik, berjalan di atas .NET Framework</td>
                     </tr>
                     <tr>
                         <td>
@@ -275,6 +328,26 @@
                         <td>Martin Odersky <span class="year">(2004)</span></td>
                         <td><span class="built-with">Java</span></td>
                         <td>Bahasa JVM fungsional-OO</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/powershell/powershell-original.svg"
+                                alt="PowerShell" class="lang-logo">
+                            PowerShell
+                        </td>
+                        <td>Microsoft <span class="year">(2006)</span></td>
+                        <td><span class="built-with">C#</span></td>
+                        <td>Script Windows modern</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nim/nim-original.svg" alt="Nim"
+                                class="lang-logo">
+                            Nim
+                        </td>
+                        <td>Andreas Rumpf <span class="year">(2008)</span></td>
+                        <td><span class="built-with">Pascal / Nim</span></td>
+                        <td>Cepat seperti C, sintaks mirip Python</td>
                     </tr>
                     <tr>
                         <td>
@@ -308,6 +381,16 @@
                     </tr>
                     <tr>
                         <td>
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg"
+                                alt="Dart" class="lang-logo">
+                            Dart
+                        </td>
+                        <td>Google <span class="year">(2011)</span></td>
+                        <td><span class="built-with">C++</span></td>
+                        <td>Populer lewat Flutter</td>
+                    </tr>
+                    <tr>
+                        <td>
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
                                 alt="TypeScript" class="lang-logo">
                             TypeScript
@@ -323,7 +406,7 @@
                             Julia
                         </td>
                         <td>Tim Julia <span class="year">(2012)</span></td>
-                        <td><span class="built-with">C / LLVM</span></td>
+                        <td><span class="built-with">C</span></td>
                         <td>Fokus pada komputasi ilmiah, alternatif Python/Matlab</td>
                     </tr>
                     <tr>
@@ -333,7 +416,17 @@
                             Swift
                         </td>
                         <td>Apple <span class="year">(2014)</span></td>
-                        <td><span class="built-with">Objective-C / C++</span></td>
+                        <td><span class="built-with">C / LLVM</span></td>
+                        <td>Alternatif modern C, cepat & ringan</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/zig/zig-original.svg" alt="Zig"
+                                class="lang-logo">
+                            Zig
+                        </td>
+                        <td>Andrew Kelley <span class="year">(2016)</span></td>
+                        <td><span class="built-with">C</span></td>
                         <td>Bahasa modern untuk ekosistem Apple</td>
                     </tr>
                 </tbody>
